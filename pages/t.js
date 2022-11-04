@@ -37,6 +37,7 @@ function App() {
     <div onClick={handleChannelUp}>
       <ReactPlayer
         playing
+        volume={1}
         height={"100vh"}
         width={"100vw"}
         url={urls[channelNumber]}
