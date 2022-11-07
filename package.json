@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "axios": "^0.21.1",
+    "screenfull": "^5.0.2",
     "next": "10.x",
     "next-themes": "0.0.15",
     "react": "17.x",
