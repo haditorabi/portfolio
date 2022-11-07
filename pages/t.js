@@ -1,17 +1,19 @@
 import React, { useState, useRef } from "react";
 import ReactPlayer from "react-player/lazy";
+import screenfull from 'screenfull'
+
 
 function App() {
   const urls = [
     "https://edge-cdn1.manoto.click/live_1500.m3u8",
+    "https://dev-live.livetvstream.co.uk/LS-63503-4/index.m3u8",
+    "https://vs-cmaf-pushb-ww-live.akamaized.net/x=3/i=urn:bbc:pips:service:bbc_persian_tv/pc_hd_abr_v2_akamai_dash_live.mpd",    
     ///////
     "https://shls-mbcpersia-prod-dub.shahid.net/out/v1/bdc7cd0d990e4c54808632a52c396946/index.m3u8",
     "https://hls.pmchd.live/hls/stream.m3u8",
     "http://live-edge01.telecentro.net.ar/live/smil:musictop.smil/chunklist_w1417360698_b2028000_sleng.m3u8",
     "https://vid1.caltexmusic.com/hls/caltextv.m3u8",
     ///////
-    "https://dev-live.livetvstream.co.uk/LS-63503-4/index.m3u8",
-    "https://vs-cmaf-pushb-ww-live.akamaized.net/x=3/i=urn:bbc:pips:service:bbc_persian_tv/pc_hd_abr_v2_akamai_dash_live.mpd",
     "https://radio538.prd1.talpatvcdn.nl/22e9bbf9616547d7bc162c993009c533/index_1.m3u8",
     "https://ott-linear-channels.stingray.com/hls/stirr/133.m3u8",
     "https://ott-linear-channels.stingray.com/hls/stirr/134.m3u8",
@@ -25,6 +27,10 @@ function App() {
     "https://appletree-mytime-samsungbrazil.amagi.tv/playlist.m3u8",
     // //////////
   ];
+  const videoRef = useRef();
+  handleClickFullscreen = () => {
+    screenfull.request(findDOMNode(videoRef))
+  }
   const [channelNumber, setChannelNumber] = useState(0);
   const handleChannelUp = () => {
     if (channelNumber == urls.length) {
@@ -34,15 +40,20 @@ function App() {
     }
   };
   return (
-    <div onClick={handleChannelUp}>
-      <ReactPlayer
-        playing
-        volume={1}
-        height={"100vh"}
-        width={"100vw"}
-        url={urls[channelNumber]}
-      />
-    </div>
+    <>
+      <button onClick={handleClickFullscreen}>F</button>
+      <div onClick={handleChannelUp}>
+        <ReactPlayer
+          playing
+          ref={videoRef}
+          volume={1}
+          height={"100vh"}
+          width={"100vw"}
+          url={urls[channelNumber]}
+        />
+      </div>
+    </>
+
   );
 }
 
