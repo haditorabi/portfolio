@@ -21,7 +21,7 @@ function App() {
     // "https://playout.cdn.cartoonnetwork.com.br/playout_02/playlist.m3u8",
     // "https://playout.cdn.cartoonnetwork.com.br/playout_03/playlist.m3u8",
     // "https://live.corusdigitaldev.com/groupd/live/49a91e7f-1023-430f-8d66-561055f3d0f7/live.isml/.m3u8",
-    "https://cnn-cnninternational-1-gb.samsung.wurl.com/manifest/playlist.m3u8",
+    // "https://cnn-cnninternational-1-gb.samsung.wurl.com/manifest/playlist.m3u8",
     // "https://smithsonianaus-samsungau.amagi.tv/playlist.m3u8",
     // "https://admdn2.cdn.mangomolo.com/nagtv/smil:nagtv.stream.smil/playlist.m3u8",
     // "https://appletree-mytime-samsungbrazil.amagi.tv/playlist.m3u8",
@@ -47,12 +47,13 @@ function App() {
 
   const [channelNumber, setChannelNumber] = useState(0);
   const handleChannelUp = () => {
-    if (channelNumber == urls.length) {
+    if (channelNumber == urls.length - 1) {
       setChannelNumber(0);
     } else {
       setChannelNumber(channelNumber + 1);
     }
   };
+  // console.log(urls.length, channelNumber);
   return (
     <>
       <button
