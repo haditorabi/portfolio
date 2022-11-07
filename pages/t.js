@@ -1,13 +1,13 @@
-import React, { useState, useRef } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import ReactPlayer from "react-player/lazy";
-import screenfull from 'screenfull'
-
+import { findDOMNode } from "react-dom";
+import screenfull from "screenfull";
 
 function App() {
   const urls = [
     "https://edge-cdn1.manoto.click/live_1500.m3u8",
     "https://dev-live.livetvstream.co.uk/LS-63503-4/index.m3u8",
-    "https://vs-cmaf-pushb-ww-live.akamaized.net/x=3/i=urn:bbc:pips:service:bbc_persian_tv/pc_hd_abr_v2_akamai_dash_live.mpd",    
+    "https://vs-cmaf-pushb-ww-live.akamaized.net/x=3/i=urn:bbc:pips:service:bbc_persian_tv/pc_hd_abr_v2_akamai_dash_live.mpd",
     ///////
     "https://shls-mbcpersia-prod-dub.shahid.net/out/v1/bdc7cd0d990e4c54808632a52c396946/index.m3u8",
     "https://hls.pmchd.live/hls/stream.m3u8",
@@ -28,9 +28,23 @@ function App() {
     // //////////
   ];
   const videoRef = useRef();
-  handleClickFullscreen = () => {
-    screenfull.request(findDOMNode(videoRef))
-  }
+  const handleClickFullscreen = () => {
+    screenfull.request(findDOMNode(videoRef.current));
+  };
+  // const escFunction = useCallback((event) => {
+  //   if (event.key === "Escape") {
+  //     screenfull.request(findDOMNode(videoRef.current));
+  //   }
+  // }, []);
+
+  // useEffect(() => {
+  //   document.addEventListener("keydown", escFunction, false);
+
+  //   return () => {
+  //     document.removeEventListener("keydown", escFunction, false);
+  //   };
+  // }, []);
+
   const [channelNumber, setChannelNumber] = useState(0);
   const handleChannelUp = () => {
     if (channelNumber == urls.length) {
@@ -41,7 +55,23 @@ function App() {
   };
   return (
     <>
-      <button onClick={handleClickFullscreen}>F</button>
+      <button
+        onClick={handleClickFullscreen}
+        style={{
+          // position: "absolute",
+          top: "10px",
+          right: "10px",
+          width: "30px",
+          height: "30px",
+          background: "white",
+          borderRadius: "50%",
+          border: "2px solid black",
+          fontWeight: 700,
+          cursor: "pointer",
+        }}
+      >
+        F
+      </button>
       <div onClick={handleChannelUp}>
         <ReactPlayer
           playing
@@ -53,7 +83,6 @@ function App() {
         />
       </div>
     </>
-
   );
 }
 
