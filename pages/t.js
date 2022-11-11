@@ -7,8 +7,11 @@ function App() {
   const urls = [
     "https://edge-cdn1.manoto.click/live_1500.m3u8",
     "https://dev-live.livetvstream.co.uk/LS-63503-4/index.m3u8",
+    "https://voa-ingest.akamaized.net/hls/live/2033876/tvmc07/playlist.m3u8",
     "https://vs-cmaf-pushb-ww-live.akamaized.net/x=3/i=urn:bbc:pips:service:bbc_persian_tv/pc_hd_abr_v2_akamai_dash_live.mpd",
     ///////
+    // "https://cbsn-us.cbsnstream.cbsnews.com/out/v1/55a8648e8f134e82a470f83d562deeca/master_8.m3u8",
+    // "https://content-ausw1.uplynk.com/channel/3324f2467c414329b3b0cc5cd987b6be/g.m3u8?pbs=4979bcce49e147ac82638b52bde516d1",
     // "https://shls-mbcpersia-prod-dub.shahid.net/out/v1/bdc7cd0d990e4c54808632a52c396946/index.m3u8",
     // "https://hls.pmchd.live/hls/stream.m3u8",
     // "http://live-edge01.telecentro.net.ar/live/smil:musictop.smil/chunklist_w1417360698_b2028000_sleng.m3u8",
