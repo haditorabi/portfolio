@@ -5,6 +5,7 @@ import screenfull from "screenfull";
 
 function App() {
   const urls = [
+    "https://play.bazbin.xyz/can/Iranica/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTEvMjAvMjAyMiAxMTozNjoyOCBQTSZoYXNoX3ZhbHVlPTcrdHI3QnJQL0wrWHJKVzBTS2lmenc9PSZ2YWxpZG1pbnV0ZXM9NQ==",
     "https://edge-cdn1.manoto.click/live_1500.m3u8",
     "https://dev-live.livetvstream.co.uk/LS-63503-4/index.m3u8",
     "https://voa-ingest.akamaized.net/hls/live/2033876/tvmc07/playlist.m3u8",
