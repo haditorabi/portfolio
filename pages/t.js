@@ -10,7 +10,7 @@ function App() {
     "https://dev-live.livetvstream.co.uk/LS-63503-4/index.m3u8",
     "https://voa-ingest.akamaized.net/hls/live/2033876/tvmc07/playlist.m3u8",
     "https://vs-cmaf-pushb-ww-live.akamaized.net/x=3/i=urn:bbc:pips:service:bbc_persian_tv/pc_hd_abr_v2_akamai_dash_live.mpd",
-    "https://play.bazbin.xyz/live/AP%20Persiana%20Science/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTEvMjEvMjAyMiAxMjoxNjo1NyBBTSZoYXNoX3ZhbHVlPXJoSHlkRWlMYUJzMEtiVFJkRFVVREE9PSZ2YWxpZG1pbnV0ZXM9NQ=="
+    "https://play.bazbin.xyz/live/AP%20Persiana%20Science/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTEvMjAvMjAyMiAxMTozNjoyOCBQTSZoYXNoX3ZhbHVlPTcrdHI3QnJQL0wrWHJKVzBTS2lmenc9PSZ2YWxpZG1pbnV0ZXM9NQ=="
     ///////
     // "https://cbsn-us.cbsnstream.cbsnews.com/out/v1/55a8648e8f134e82a470f83d562deeca/master_8.m3u8",
     // "https://content-ausw1.uplynk.com/channel/3324f2467c414329b3b0cc5cd987b6be/g.m3u8?pbs=4979bcce49e147ac82638b52bde516d1",
