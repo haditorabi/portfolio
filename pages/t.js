@@ -10,7 +10,7 @@ function App() {
     "https://dev-live.livetvstream.co.uk/LS-63503-4/index.m3u8",
     "https://voa-ingest.akamaized.net/hls/live/2033876/tvmc07/playlist.m3u8",
     "https://vs-cmaf-pushb-ww-live.akamaized.net/x=3/i=urn:bbc:pips:service:bbc_persian_tv/pc_hd_abr_v2_akamai_dash_live.mpd",
-    "https://play.bazbin.xyz/live/AP Family24/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTEvMjIvMjAyMiAzOjQ4OjU0IEFNJmhhc2hfdmFsdWU9NVRKdWI5QWZacG9vTWNNOUkyaGRhQT09JnZhbGlkbWludXRlcz01"
+    "https://play.bazbin.xyz/live/AP Family24/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTEvMjIvMjAyMiAzOjQ4OjU0IEFNJmhhc2hfdmFsdWU9NVRKdWI5QWZacG9vTWNNOUkyaGRhQT09JnZhbGlkbWludXRlcz01",
     "https://play.bazbin.xyz/live/AP FXTV/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTEvMjIvMjAyMiAzOjQ4OjU5IEFNJmhhc2hfdmFsdWU9RW5tMmVoajdzNjdHZ3NXa2FxNmR4UT09JnZhbGlkbWludXRlcz01",
     "https://play.bazbin.xyz/live/AP Persiana Cinema/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTEvMjIvMjAyMiAzOjQ5OjA1IEFNJmhhc2hfdmFsdWU9VXJUWEtDdEk2VjBtdy9TRU5ocUxKQT09JnZhbGlkbWludXRlcz01",
     "https://play.bazbin.xyz/live/AP Persian Film/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTEvMjIvMjAyMiAzOjQ5OjA5IEFNJmhhc2hfdmFsdWU9MkhhSWZoOFZPM2hZZm9lTVh2ZHpwZz09JnZhbGlkbWludXRlcz01",
