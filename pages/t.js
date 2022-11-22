@@ -10,7 +10,16 @@ function App() {
     "https://dev-live.livetvstream.co.uk/LS-63503-4/index.m3u8",
     "https://voa-ingest.akamaized.net/hls/live/2033876/tvmc07/playlist.m3u8",
     "https://vs-cmaf-pushb-ww-live.akamaized.net/x=3/i=urn:bbc:pips:service:bbc_persian_tv/pc_hd_abr_v2_akamai_dash_live.mpd",
-    "https://play.bazbin.xyz/live/AP%20Persiana%20Science/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTEvMjEvMjAyMiAxMjo0NDoxMCBBTSZoYXNoX3ZhbHVlPWxaMmRzZTdsaVo1bFd0Y2JhUlZNdWc9PSZ2YWxpZG1pbnV0ZXM9NQ=="
+    "https://play.bazbin.xyz/live/AP Family24/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTEvMjIvMjAyMiAzOjQ4OjU0IEFNJmhhc2hfdmFsdWU9NVRKdWI5QWZacG9vTWNNOUkyaGRhQT09JnZhbGlkbWludXRlcz01"
+    "https://play.bazbin.xyz/live/AP FXTV/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTEvMjIvMjAyMiAzOjQ4OjU5IEFNJmhhc2hfdmFsdWU9RW5tMmVoajdzNjdHZ3NXa2FxNmR4UT09JnZhbGlkbWludXRlcz01",
+    "https://play.bazbin.xyz/live/AP Persiana Cinema/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTEvMjIvMjAyMiAzOjQ5OjA1IEFNJmhhc2hfdmFsdWU9VXJUWEtDdEk2VjBtdy9TRU5ocUxKQT09JnZhbGlkbWludXRlcz01",
+    "https://play.bazbin.xyz/live/AP Persian Film/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTEvMjIvMjAyMiAzOjQ5OjA5IEFNJmhhc2hfdmFsdWU9MkhhSWZoOFZPM2hZZm9lTVh2ZHpwZz09JnZhbGlkbWludXRlcz01",
+    "https://play.bazbin.xyz/live/AP Persiana Comedy/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTEvMjIvMjAyMiAzOjQ5OjE1IEFNJmhhc2hfdmFsdWU9eVBVVnVIWWg2YnBEdVprNmM4ZS9QUT09JnZhbGlkbWludXRlcz01",
+    "https://play.bazbin.xyz/live/AP%20Persiana%20One/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTEvMjIvMjAyMiAzOjQ5OjIyIEFNJmhhc2hfdmFsdWU9ZCszY2RBT1c0NHRxTEZiL1UwRDFmQT09JnZhbGlkbWludXRlcz01",
+    "https://play.bazbin.xyz/live/AP Persiana Nostalgia/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTEvMjIvMjAyMiAzOjQ5OjM2IEFNJmhhc2hfdmFsdWU9NEhsSmVjMDB5QUNQOWpYVHNReEVqZz09JnZhbGlkbWludXRlcz01",
+    "https://play.bazbin.xyz/live/AP Maah TV HD/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTEvMjIvMjAyMiAzOjQ5OjQyIEFNJmhhc2hfdmFsdWU9WDlTS3FmTFdpU0ZiYlRPZlp3TVNEZz09JnZhbGlkbWludXRlcz01",
+    "https://play.bazbin.xyz/live/AP Persiana Family/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTEvMjIvMjAyMiAzOjQ5OjQ1IEFNJmhhc2hfdmFsdWU9TExnamdVckhzUlZQQnBua210S2dTdz09JnZhbGlkbWludXRlcz01",
+    "https://play.bazbin.xyz/live/AP Damac HD/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTEvMjIvMjAyMiAzOjUwOjAxIEFNJmhhc2hfdmFsdWU9QUlWVFJob1NSQWUvNVVVdGZ2UDZQZz09JnZhbGlkbWludXRlcz01",
     ///////
     // "https://cbsn-us.cbsnstream.cbsnews.com/out/v1/55a8648e8f134e82a470f83d562deeca/master_8.m3u8",
     // "https://content-ausw1.uplynk.com/channel/3324f2467c414329b3b0cc5cd987b6be/g.m3u8?pbs=4979bcce49e147ac82638b52bde516d1",
