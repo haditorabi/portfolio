@@ -2,11 +2,21 @@ const userData = {
   githubUsername: "haditorabi",
   name: "Hadi Torabi",
   designation: "Full-Stack Developer",
-  avatarUrl: "/avatar.jpg",
+  avatarUrl: "/avatar.png",
   email: "hady.toraby@gmail.com",
   phone: "+16477454264",
   address: "Old Toronto, Ontario, Canada.",
   projects: [
+    {
+      title: "LuvBug Learning Dashboard",
+      // link: "https://naghsh.net",
+      imgUrl: "/luvbug-dashboard.gif",
+    },
+    {
+      title: "LuvBug Learning website",
+      // link: "https://naghsh.net",
+      imgUrl: "/luvbug-landing.gif",
+    },
     {
       title: "Naghsh Co B2C website",
       // link: "https://naghsh.net",
@@ -34,11 +44,11 @@ const userData = {
   },
   experience: [
     {
-      title: "Freelancer",
-      company: "Fiverr",
-      year: "2021",
-      companyLink: "https://www.fiverr.com/",
-      desc: "Debuged projects in action and implemented minor ideas inside running projects ",
+      title: "Full-stack Developer",
+      company: "BigFatBrainStorm Inc.",
+      year: "2021-2024",
+      companyLink: "https://www.bigfatbrainstorm.com/",
+      desc: "Designed and developed a highly responsive ReactJS application based on Figma prototypes, alongside architecting a Laravel API as a backend service powered by a MySQL database. Simultaneously maintained and debugged legacy applications, ensuring stability and performance optimization",
     },
     {
       title: "Full-stack Developer",
